@@ -34,6 +34,6 @@ as     = apply_schema(formula, sch) $ upper level factor not added to the formul
 rmf, lmf = modelcols(as, rds)
 ```
 
-## Unrelolvable problems
+## Unsolvable problems
 
-Can't get real `coefnames` and `levels` until `modelcols` not called. `apply_schema` not able to modyfy NestedTerm because have no apropriate information. 
+Can't get real `coefnames` and `levels` until `modelcols` not called. `apply_schema` not able to modify NestedTerm because have no appropriate information. 
