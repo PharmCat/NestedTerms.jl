@@ -16,5 +16,5 @@ using StatsModels, CSV, DataFrames, CategoricalArrays, LinearAlgebra
     rmf, lmf = modelcols(as, rds)
 
     @test size(lmf) == (36,16)
-    @test rank(lms) == 16
+    @test rank(lmf) == 16
 end
